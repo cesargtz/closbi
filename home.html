@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Closbi Hoteles</title>
+
+	<!-- Meta Data -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no"/>
+    <meta name="description" content="Closbi Hoteles" />
+
+    <!-- Twitter data -->
+    <!-- <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ArtTemplates">
+    <meta name="twitter:title" content="Sochi">
+    <meta name="twitter:description" content="Sochi — A Modern Hotel Booking Sketch Template">
+    <meta name="twitter:image" content="assets/images/social.html"> -->
+
+    <!-- Open Graph data -->
+    <!-- <meta property="og:title" content="ArtTemplate" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="your url website" />
+    <meta property="og:image" content="assets/images/social.html" />
+    <meta property="og:description" content="Sochi — A Modern Hotel Booking Sketch Template" />
+    <meta property="og:site_name" content="Sochi" /> -->
+
+	<!-- Favicons -->
+	<!-- <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png"> -->
+	<link rel="shortcut icon" href="assets/images/logo-white.png" type="image/png">
+
+    <!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/demo/style-demo.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css" />
+	
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+	    <div class="preloader__wrap">
+		    <div class="preloader__progress"><span></span></div>
+		</div>
+	</div>
+
+    <!-- Header -->
+	<header class="header">
+	    <nav class="navbar navbar-white navbar-overlay">
+            <a class="logo-link" href="home.html">
+                <img class="logotype" src="assets/images/logo-white.png" alt="Closbi">
+		    </a>
+		    <div class="navbar__menu">
+		        <button class="hamburger" type="button">
+				    <span></span>
+					<span></span>
+				</button>
+			    <ul class="nav">
+				    <li class="nav__item _is-current"><a class="nav__link" href="rooms.html"><span data-hover="Habitaciones">Habitaciones</span></a></li>
+				    <li class="nav__item"><a class="nav__link" href="gallery.html"><span data-hover="Galeria">Galeria</span></a></li>
+				    <!-- <li class="nav__item"><a class="nav__link" href="about.html"><span data-hover="¿Quiénes somos?">¿Quiénes somos?</span></a></li> -->
+				    <li class="nav__item"><a class="nav__link" ><span data-hover="Contáctanos">Contáctanos</span></a></li>
+					<li class="nav__item"><a class="btn btn__medium" href="#"><i class="btn-icon-left icon-bookmark"></i>Reservciones</a></li>
+			    </ul>
+	        </div>
+		    <div class="navbar__btn">
+		        <a class="btn btn__medium" href="rooms.html"><i class="btn-icon-left icon-bookmark"></i>Reservaciones</a>
+		    </div>	
+	    </nav>
+	</header>
+	<!-- /Header -->
+
+
+	<!-- Modal structure -->
+	<div id="modal"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
+		<!-- Modal content -->
+	</div>
+    
+	<!-- Content -->
+	<main class="main">
+        <!-- Intro -->
+		<section class="intro">
+		    <div class="intro__bg-wrap">
+		        <div class="overlay intro__bg js-image js-parallax" data-image="assets/images/portada2.jpg"></div>
+			</div>
+	        <div class="container intro__container">
+		        <div class="row h-100 align-items-center">
+			        <div class="col-12 col-md-12 col-xl-8">
+						<span class="title title--overhead text-white js-lines">Bienvenido a Hoteles Closbi</span>
+						<h1 class="title title--display-1 js-lines">Sentirse bien en tu lugar favorito.</h1>
+		                <!-- <h1 class="title title--display-1 js-lines">Feeling cool like your favorite place.</h1> -->
+					    <button class="intro__btn-play js-lines" id="play">Descúbrenos<span class="btn-play btn-play__popup"></span></button>
+				    </div>
+                </div>				
+		    </div>
+		    <!-- Scroll To -->
+		    <a class="scroll-to" href="%21.html#about">Desplazarse<span class="scroll-to__line"></span></a>
+	    </section>
+	    <!-- /Intro -->
+	
+		<!-- Booking -->
+		<div class="bottom-panel booking-panel">
+		    <form class="bottom-panel__wrap d-flex">
+			    <div class="row bottom-panel__form-wrap">
+			        <div class="form-group col-date-to col-12 col-sm-6 col-md-4 slash">
+				        <label class="labelFeature" for="check-in">Hora de entrada</label>
+                        <input type="text" class="inputFeature input-arrow readonly js-datepicker" id="check-in" name="check-in" placeholder="Selecionar fecha" required="required" autocomplete="off">
+				    </div>
+				    <div class="form-group col-date-from col-12 col-sm-6 col-md-4 slash">
+				        <label class="labelFeature" for="check-out">Hora de salida</label>
+                        <input type="text" class="inputFeature input-arrow readonly js-datepicker" id="check-out" name="check-out" placeholder="Selecionar fecha" required="required" autocomplete="off">
+				    </div>
+				    <div class="form-group col-12 col-md-4 dropdown">
+					    <div class="closeDropdown" id="dropdownPersonsAction" data-toggle="dropdown" data-display="static">
+				            <label class="labelFeature" for="person-total">Personas</label>
+                            <input type="text" class="inputFeature input-arrow readonly" id="person-total" name="person" placeholder="Numero de personas" required="required" autocomplete="off">
+						</div>
+						
+						<!-- Dropdown person -->
+						<div class="dropdown-menu dropdown-menu-lg-left dropdown-menu-right" id="dropdownPersons" aria-labelledby="dropdownPersonsAction">
+						    <div class="row">
+						        <div class="form-group col-12">
+							        <label class="label" for="person-adult">Personas</label>
+						            <div class="js-quantity">
+									    <span class="qty-minus icon-minus"></span>
+									    <input type="number" class="inputText js-quantity-input" id="person-adult" name="person-adalt" value="0" min="1" max="8" readonly="readonly">
+										<span class="qty-plus icon-plus"></span>
+									</div>	
+							    </div>
+							    <!-- <div class="form-group col-6 col__right">
+							        <label class="label" for="person-kids">Niños</label>
+									<div class="js-quantity">
+									    <span class="qty-minus icon-minus"></span>
+							            <input type="number" class="inputText js-quantity-input" id="person-kids" name="person-kids" value="0" min="0" max="8" readonly="readonly">
+										<span class="qty-plus icon-plus"></span>
+									</div>
+							    </div> -->
+							</div>
+							<div class="row row-footer">
+							    <div class="col-6 col__left">
+							        <button type="button" class="btn btn__small btn__second btn-reset-persons w-100">Limpiar</button>
+								</div>
+							    <div class="col-6 col__right">
+							        <button type="button" class="btn btn__small btn-close-dropdown w-100">Aplicar</button>
+								</div>
+							</div>	
+						</div>
+						<!-- /Dropdown person -->
+				    </div>
+				</div>
+				<button  type="submit" class="btn-booking"><span>Siguiente</span>Reserva ahora</button>
+			</form>
+		</div>	
+	    <!-- /Booking -->
+
+	    <!-- Section About Us -->
+	    <section id="about" class="container section">
+	        <div class="row">
+		        <div class="col-12 col-md-12 col-lg-8">
+			        <span class="title title--overhead js-lines">Sobre nosotros</span>
+			        <h1 class="title title--h1 js-lines">El mejor lugar para relajarse.</h1>
+			    </div>
+				<div class="col-12 col-lg-6 text-left text-sm-justify">
+					<p class="ml-0 ml-lg-4 paragraph js-scroll-show">Somos la mejor opción para  aquellas personas que buscan un descanso placentero, tranquilo  y cómodo.  Gracias a nuestras exelentes y multiples ubicaciones contamos con opciones para descanso familiar, viaje de negocio y descanso de ruta.</p>
+				</div>
+				<div class="col-12 col-lg-6 text-left text-sm-justify">
+					<p class="mr-0 mr-lg-4 paragraph js-scroll-show">Grupo Closbi, ha logrado a través de los años consolidar una idea que se basa en conceptos muy claros y sencillos. Un trato amable al cliente, una cómoda estancia y una atención personalizada que redefine el concepto de un hotel tradicional. </p>
+				</div>
+				<div class="col-12 col-lg-6">
+				    <figure class="about-image-wrap mr-0 mr-lg-4">
+				        <!-- <a class="about-link" href="about.html">Explorar... <i class="icon-arrow-special"></i></a> -->
+				        <img class="cover about-image-portrait" src="assets/images/DSC03754.jpg" alt="about" />
+					</figure>	
+				</div>
+				<div class="col-12 col-lg-6">
+				    <figure class="about-image-wrap ml-0 ml-lg-4">
+					    <img class="cover about-image-landscape" src="assets/images/DSC03749.jpg" alt="about" />
+					</figure>
+				</div>
+		    </div>
+		</section>
+		
+		<!-- Section Rooms -->
+		<section class="container section">	
+	        <div class="row align-items-end">
+		        <div class="col-12 col-md-12 col-lg-8">
+			        <span class="title title--overhead js-lines">Habitaciones</span>
+			        <h1 class="title title--h1 js-lines">Habitaciones / Estilos.</h1>
+			    </div>
+				<div class="col-12 col-md-12 col-lg-4 text-lg-right d-none d-md-block">
+				    <a class="btn-link header-btn-more" href="rooms.html">Ver todas las habitaciones</a>
+				</div>
+			</div>
+			
+			<!-- Grid -->
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-8">
+				    <!-- ItemRoom -->
+				    <div class="itemRoom">
+					    <span class="badge">Popular</span>
+					    <figure class="itemRoom__img-wrap">
+						    <a class="itemRoom__link" href="room_details.html">
+							    <img class="cover" src="assets/images/DSC03806.jpg" alt="room" />
+							</a>
+						</figure>
+						<div class="itemRoom__details">
+						    <h4 class="title title--h4">Doble</h4>
+							<div class="itemRoom__price"><span><a href="#">Ver precios</a></span></div>
+						</div>	
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+				    <!-- ItemRoom -->
+				    <div class="itemRoom">
+					    <figure class="itemRoom__img-wrap">
+						    <a class="itemRoom__link" href="room_details.html">
+							    <img class="cover" src="assets/images/love.jpg" alt="room" />
+							</a>
+						</figure>
+						<div class="itemRoom__details">
+						    <h4 class="title title--h4">Romance</h4>
+							<div class="itemRoom__price"><span><a href="#">Ver precios</a></span></div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+				    <!-- ItemRoom -->
+				    <div class="itemRoom">
+					    <figure class="itemRoom__img-wrap">
+						    <a class="itemRoom__link" href="room_details.html">
+							    <img class="cover" src="assets/images/jacuzi.jpg" alt="room" />
+							</a>
+						</figure>
+						<div class="itemRoom__details">
+						    <h4 class="title title--h4">Jacuzzi</h4>
+							<div class="itemRoom__price"><span><a href="#">Ver precios</a></span></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+				    <!-- ItemRoom -->
+				    <div class="itemRoom">
+					    <figure class="itemRoom__img-wrap">
+						    <a class="itemRoom__link" href="room_details.html">
+							    <img class="cover" src="assets/images/simple.jpg" alt="room" />
+							</a>
+						</figure>
+						<div class="itemRoom__details">
+						    <h4 class="title title--h4">Sencilla</h4>
+							<div class="itemRoom__price"><span><a href="#">Ver precios</a></span></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+				    <!-- ItemRoom -->
+				    <div class="itemRoom mb-0">
+					    <figure class="itemRoom__img-wrap">
+						    <a class="itemRoom__link" href="room_details.html">
+							    <img class="cover" src="assets/images/DSC03765.jpg" alt="room" />
+							</a>
+						</figure>
+						<div class="itemRoom__details">
+						    <h4 class="title title--h4">Closbi</h4>
+							<div class="itemRoom__price"><span><a href="#">Ver precios</a></span></div>
+						</div>
+					</div>
+				</div>
+            </div>			
+	    </section>
+		
+		<!-- Section Achievements -->
+		<section class="container section">	
+	        <div class="row">
+		        <div class="col-12 col-lg-7">
+                    <h2 class="title-description js-lines">Nos eforzamos por ser los mejores en brindarle un descanso más placentero.</h2>
+                </div>
+            </div>
+			
+			<div class="row">
+			    <!-- Item count -->
+			    <div class="col-6 col-md-3 col__left">
+				    <div class="ach-box">
+				        <span class="title title--overhead js-lines">Sucursales</span>
+				        <div class="item-count"><span>4</span>+</div>
+					</div>
+				</div>
+				
+			    <!-- Item count -->
+			    <div class="col-6 col-md-3 col__right">
+				    <div class="ach-box">
+				        <span class="title title--overhead js-lines">Habitaciones</span>
+				        <div class="item-count"><span>84</span>+</div>
+					</div>
+				</div>
+				
+			    <!-- Item count -->
+			    <div class="col-6 col-md-3 col__left">
+				    <div class="ach-box">
+				        <span class="title title--overhead js-lines">Años</span>
+				        <div class="item-count"><span>17</span>+</div>
+					</div>
+				</div>
+				
+			    <!-- Item count -->
+			    <div class="col-6 col-md-3 col__right">
+				    <div class="ach-box">
+				        <span class="title title--overhead js-lines">Clientes Felices</span>
+				        <div class="item-count"><span>10</span>k</div>
+					</div>
+				</div>
+			</div>
+        </section>
+
+		<!-- Section Testimonials -->
+		<section class="section section-testimonials section-gray section-gray--cutoutTop">
+		    <div class="container">
+			    <div class="row">
+				    <div class="col-12">
+			            <span class="title title--overhead js-lines">Hoteles Closbi</span>
+						<h1 class="title title--h1 js-lines">Que dicen<br><span class="text-accent">sobre nosotros.</span></h1>
+			        </div>
+					
+					<div class="col-12">
+					    <!-- Carousel -->
+					    <div class="swiper-container js-testimonials mb-5">
+						    <div class="swiper-wrapper">
+							    <!-- Testimonials item -->
+                                <div class="testimonials-item swiper-slide">
+								    <h4 class="title title--h4">Limpieza, seguridad y privacidad</h4>
+									<p class="testimonials-item__caption">Grupo Closbi ha venido mejorando con el paso de los años. La limpieza, seguridad y privacidad son nuestra promesa para las familias y/o clientes que disfrutan de nuestra hopitaldiad</p>
+								    <!-- <div class="author-wrap">
+									    <div class="author-picture"><img class="cover" src="assets/images/person.jpg" alt="Jacob Lane" /></div>
+										<div>
+										    <div class="author-name">Jacob Lane</div>
+										    <div class="author-country">from USA</div>
+										</div>
+									</div> -->
+								</div>
+							    <!-- Testimonials item -->
+                                <div class="testimonials-item swiper-slide">
+								    <h4 class="title title--h4">Eventos especiales</h4>
+									<p class="testimonials-item__caption">Nuestras promociones especiales hacen que las familias numerosas reserven en Hotel Boutique en épocas navideñas o para eventos especiales  
+										que demandan una cómoda estancia en la tierra del queso y las manzanas.</p>
+								    <!-- <div class="author-wrap">
+									    <div class="author-picture"><img class="cover" src="assets/images/person2.jpg" alt="Victoria Wilson" /></div>
+										<div>
+										    <div class="author-name">Victoria Wilson</div>
+										    <div class="author-country">from France</div>
+										</div>
+									</div> -->
+								</div>
+							    <!-- Testimonials item -->
+                                <div class="testimonials-item swiper-slide">
+								    <h4 class="title title--h4">Confortm y descanso</h4>
+									<p class="testimonials-item__caption">Nuestro servicio personalizado, la calidez en las instalaciones, las promociones especiales y la atención al cliente 
+										 es la clave para el éxito de la franquicia que sigue consolidándose como una excelente alternativa para disfrutar de Cuauhtémoc y de la región.</p>
+								    <!-- <div class="author-wrap">
+									    <div class="author-picture"><img class="cover" src="assets/images/person3.jpg" alt="Max Edwards" /></div>
+										<div>
+										    <div class="author-name">Max Edwards</div>
+										    <div class="author-country">from Germany</div>
+										</div>
+									</div> -->
+								</div>
+                            </div>
+							
+							<!-- Pagination  -->
+                            <div class="swiper-pagination"></div>
+						</div>
+						<!-- /Carousel -->
+					</div>
+				</div>
+			</div>
+        </section>
+		
+	    <!-- Section CTA -->
+	    <section class="container">
+	        <div class="row cta-box cta-negative js-scroll-show">
+			    <div class="col-12 col-lg-7">
+			        <h2 class="title title--h2">Reserva hoy mismo.</h2>
+				    <p class="paragraph">Comienza una aventura increíble llena de experiencias y descubrimiento</b></p>
+				</div>
+				<div class="col-12 col-lg-5 text-lg-right">
+				    <a href="rooms.html" class="btn btn__large btn--white">Reserva <i class="btn-icon-right icon-arrow-special"></i></a>
+				</div>
+			</div>
+	    </section>
+	</main>
+	<!-- /Content -->
+	
+	<!-- Footer -->
+	<footer class="footer">
+	    <div class="footer__left">
+			<ul class="footer__info">
+			    <li>© 2020 Grupo Closbi</li>
+			</ul>
+		</div>
+		<ul class="footer__social">
+		    <li><a href="https://www.facebook.com/hotelesclosbicuauhtemoc" target="blank" class="social-link"><i class="icon-facebook-alt"></i></a></li>
+		    <!-- <li><a href="#" class="social-link"><i class="icon-twitter-alt"></i></a></li>
+		    <li><a href="#" class="social-link"><i class="icon-instagram"></i></a></li> -->
+		</ul>
+	</footer>
+
+    <!-- Lightbox hero video -->
+    <div class="lightbox-backdrop">
+	    <div class="close-popup icon-x"></div>
+        <div class="lightbox-content">
+            <div class="video-foreground">
+			    <div class="youtube-popup" data-yt-url="https://www.youtube.com/embed/HSsqzzuGTPo?autoplay=1&amp;"></div>
+            </div>
+        </div>
+	</div>
+	
+	
+
+	<!-- JavaScripts -->
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/common.js"></script>
+    
+	<script src="assets/demo/plugins-demo.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+	<script src="assets/js/reservation.js"></script>
+</body>
+
+</html>
