@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             confirmButtonText: 'Siguiente'
           }).then((result) => {
             // Send Whatsapp
-            numberWP = '526251463317'
+            numberWP = '526251510856'
             var msgWP = `https://api.whatsapp.com/send?phone=${numberWP}&text=Reservacion%20al%20nombre%20de%20${name}%20para%20${persons}%20personas.%20Desde%20closbi.com.`
             window.open(msgWP, '_blank');
           })
