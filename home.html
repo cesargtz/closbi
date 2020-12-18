@@ -54,12 +54,12 @@
             <a class="logo-link" href="home.html">
                 <img class="logotype" src="assets/images/logo-white.png" alt="Closbi">
 		    </a>
-		    <div class="navbar__menu">
+		    <div class="navbar__menu" >
 		        <button class="hamburger" type="button">
 				    <span></span>
 					<span></span>
 				</button>
-			    <ul class="nav">
+			    <ul class="nav" style="margin-right:150px">
 				    <li class="nav__item _is-current"><a class="nav__link" href="rooms.html"><span data-hover="Habitaciones">Habitaciones</span></a></li>
 				    <li class="nav__item"><a class="nav__link" href="gallery.html"><span data-hover="Galeria">Galeria</span></a></li>
 				    <!-- <li class="nav__item"><a class="nav__link" href="about.html"><span data-hover="¿Quiénes somos?">¿Quiénes somos?</span></a></li> -->
@@ -67,9 +67,9 @@
 					<li class="nav__item"><a class="btn btn__medium" href="#"><i class="btn-icon-left icon-bookmark"></i>Reservciones</a></li>
 			    </ul>
 	        </div>
-		    <div class="navbar__btn">
-		        <a class="btn btn__medium" href="rooms.html"><i class="btn-icon-left icon-bookmark"></i>Reservaciones</a>
-		    </div>	
+		    <!-- <div class="navbar__btn">
+		        <a class="btn btn__medium" href="rooms.html"><i class="btn-icon-left icon-bookmark"></i>Habitaciones</a>
+		    </div>	 -->
 	    </nav>
 	</header>
 	<!-- /Header -->
@@ -203,7 +203,8 @@
 				    <div class="itemRoom">
 					    <span class="badge">Popular</span>
 					    <figure class="itemRoom__img-wrap">
-						    <a class="itemRoom__link" href="room_details.html">
+						    <!-- <a class="itemRoom__link" href="room_details.html"> -->
+								<a class="itemRoom__link"></a>
 							    <img class="cover" src="assets/images/DSC03806.jpg" alt="room" />
 							</a>
 						</figure>
@@ -217,7 +218,8 @@
 				    <!-- ItemRoom -->
 				    <div class="itemRoom">
 					    <figure class="itemRoom__img-wrap">
-						    <a class="itemRoom__link" href="room_details.html">
+						    <!-- <a class="itemRoom__link" href="room_details.html"> -->
+								<a class="itemRoom__link"></a>
 							    <img class="cover" src="assets/images/love.jpg" alt="room" />
 							</a>
 						</figure>
@@ -231,7 +233,8 @@
 				    <!-- ItemRoom -->
 				    <div class="itemRoom">
 					    <figure class="itemRoom__img-wrap">
-						    <a class="itemRoom__link" href="room_details.html">
+						    <!-- <a class="itemRoom__link" href="room_details.html"> -->
+								<a class="itemRoom__link"></a>
 							    <img class="cover" src="assets/images/jacuzi.jpg" alt="room" />
 							</a>
 						</figure>
@@ -245,7 +248,8 @@
 				    <!-- ItemRoom -->
 				    <div class="itemRoom">
 					    <figure class="itemRoom__img-wrap">
-						    <a class="itemRoom__link" href="room_details.html">
+						    <!-- <a class="itemRoom__link" href="room_details.html"> -->
+								<a class="itemRoom__link"></a>
 							    <img class="cover" src="assets/images/simple.jpg" alt="room" />
 							</a>
 						</figure>
@@ -259,7 +263,8 @@
 				    <!-- ItemRoom -->
 				    <div class="itemRoom mb-0">
 					    <figure class="itemRoom__img-wrap">
-						    <a class="itemRoom__link" href="room_details.html">
+						    <!-- <a class="itemRoom__link" href="room_details.html"> -->
+								<a class="itemRoom__link"></a>
 							    <img class="cover" src="assets/images/DSC03765.jpg" alt="room" />
 							</a>
 						</figure>
@@ -385,7 +390,7 @@
 				    <p class="paragraph">Comienza una aventura increíble llena de experiencias y descubrimiento</b></p>
 				</div>
 				<div class="col-12 col-lg-5 text-lg-right">
-				    <a href="rooms.html" class="btn btn__large btn--white">Reserva <i class="btn-icon-right icon-arrow-special"></i></a>
+				    <a id="reserva-wp" class="btn btn__large btn--white"> <span style="color:#c9a96a">Reserva</span> <i class="btn-icon-right icon-arrow-special"></i></a>
 				</div>
 			</div>
 	    </section>
@@ -425,6 +430,8 @@
     
 	<script src="assets/demo/plugins-demo.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.9.1/dist/sweetalert2.all.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.0/dist/sweetalert2.all.min.js"></script>
 	<script src="assets/js/reservation.js"></script>
 </body>
 
