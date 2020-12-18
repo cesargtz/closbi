@@ -306,13 +306,13 @@ $(document).ready(function() {
 	// Calculation
 	$('#person-adult').on('change', function(){
         var ret = Number($('#person-adult').val());
-        $('#person-total').val(ret + ' persons');
+        $('#person-total').val(ret + ' personas');
     });
 	
-	// Clear persons form
-	$('.btn-reset-persons').on('click', function(){
+	// Clear personas form
+	$('.btn-reset-personas').on('click', function(){
         $('#person-adult').val('1');
-		$('#person-total').val(1 + ' persons');
+		$('#person-total').val(1 + ' personas');
     });
 	
 	// Close dropdown
